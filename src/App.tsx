@@ -97,7 +97,7 @@ function App() {
             <h2>Things I've built.</h2>
           </div>
 
-          <span className="section-count">02 — 03</span>
+          <span className="section-count">03 — 03</span>
         </div>
 
         {/* PROJECT 01 */}
