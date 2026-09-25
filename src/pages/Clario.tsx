@@ -260,23 +260,24 @@ function Clario() {
         </div>
       </section>
 
-      <section className="case-project-nav" id="case-contact">
-        <a href="/" className="case-project-nav-back">
-          <ArrowLeft size={16} />
-          Back to work
-        </a>
+      <section className="case-project-nav">
 
-        <a href="/cuddle-nest" className="case-next-project">
-          <span>PREVIOUS PROJECT</span>
+  <a href="/noir-crumb" className="case-project-nav-back">
+    <ArrowLeft size={16} />
+    Previous · NOIR & CRUMB
+  </a>
 
-          <strong>Cuddle Nest</strong>
+  <a href="/cuddle-nest" className="case-next-project">
+    <span>NEXT PROJECT</span>
 
-          <small>REAL-WORLD PRODUCT</small>
+    <strong>Cuddle Nest</strong>
 
-          <ArrowUpRight size={22} />
-        </a>
-      </section>
+    <small>REAL-WORLD PRODUCT</small>
 
+    <ArrowUpRight size={22} />
+  </a>
+
+</section>
       <footer className="case-footer">
         <span>KEERTHANA C. / 2026</span>
       </footer>

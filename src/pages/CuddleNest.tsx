@@ -255,22 +255,22 @@ function CuddleNest() {
         </div>
       </section>
 
-      <section className="case-project-nav" id="case-contact">
-        <a href="/" className="case-project-nav-back">
-          <ArrowLeft size={16} />
-          Back to work
-        </a>
+      <section className="case-project-nav">
+  <a href="/" className="case-project-nav-back">
+    <ArrowLeft size={16} />
+    Back to work
+  </a>
 
-        <a href="/clario" className="case-next-project">
-          <span>NEXT PROJECT</span>
+  <a href="/noir-crumb" className="case-next-project">
+    <span>NEXT PROJECT</span>
 
-          <strong>Clario</strong>
+    <strong>Noir & Crumb</strong>
 
-          <small>AI PRODUCT</small>
+    <small>WEBSITE CONCEPT</small>
 
-          <ArrowUpRight size={22} />
-        </a>
-      </section>
+    <ArrowUpRight size={22} />
+  </a>
+</section>
 
       <footer className="case-footer">
         <span>KEERTHANA C. / 2026</span>

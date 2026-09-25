@@ -10,9 +10,11 @@ import {
 
 import cuddleLogin from "./assets/cuddle-nest/login.png";
 import clarioOverview from "./assets/clario/overview.png";
+import noirCrumbOverview from "./assets/noir-crumb/overview.png";
 
 import CuddleNest from "./pages/CuddleNest";
 import Clario from "./pages/Clario";
+import NoirCrumb from "./pages/NoirCrumb";
 
 import "./App.css";
 
@@ -27,6 +29,10 @@ function App() {
   if (path === "/clario") {
     return <Clario />;
   }
+
+  if (path === "/noir-crumb") {
+  return <NoirCrumb />;
+}
 
   return (
     <main className="portfolio">
@@ -171,6 +177,45 @@ function App() {
             <div className="project-number">02</div>
           </div>
         </article>
+
+        {/* PROJECT 03 */}
+<article className="project project-noir">
+  <div className="project-meta">
+    <span>03</span>
+    <span>WEBSITE CONCEPT</span>
+  </div>
+
+  <div className="project-title">
+    <h3>NOIR & CRUMB</h3>
+    <p>
+      A premium café website concept designed to turn a café's
+      atmosphere into a memorable digital experience.
+    </p>
+  </div>
+
+  <a href="/noir-crumb" className="project-visual">
+    <div className="visual-label">VIEW PROJECT ↗</div>
+
+    <img
+      src={noirCrumbOverview}
+      alt="NOIR & CRUMB premium café website"
+    />
+  </a>
+
+  <div className="project-footer">
+    <div>
+      <span>ROLE</span>
+      <strong>Product Designer & Developer</strong>
+    </div>
+
+    <div>
+      <span>STACK</span>
+      <strong>React · JavaScript · CSS</strong>
+    </div>
+
+    <div className="project-number">03</div>
+  </div>
+</article>
       </section>
 
       {/* APPROACH */}
